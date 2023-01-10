@@ -34,7 +34,7 @@ First, identify which environment the bug has been affected. It will decide wher
 
 That's an important fact to always remember to build compatible versions with a consumer service or an application, the system always should have a rollback option.
 
-image 2
+![Untitled-2020-05-25-2244-13](https://user-images.githubusercontent.com/33763843/211508038-d0b1f029-2ecd-4513-a555-b23569519f28.png)
 
 ### Changelog process
 
