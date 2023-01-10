@@ -1,12 +1,12 @@
-Agreements
+### Agreements
 
-The guidelines of this contributing document does not have as a function to restrict or force developers to make use of specific flow but as an engaged team we decided to create it and follow according with our own needs. To sum up, the reason this document was created is to be a concise and generic base-flow of the process to develop in a way they become more closer between teams and make it possible to reduce the friction and speed up the flow when exchanging team members or when using, contributing to other team's repositories.
+> The guidelines of this contributing document does not have as a function to restrict or force developers to make use of specific flow but as an engaged team we decided to create it and follow according with our own needs. To sum up, the reason this document was created is to be a concise and generic base-flow of the process to develop in a way they become more closer between teams and make it possible to reduce the friction and speed up the flow when exchanging team members or when using, contributing to other team's repositories.
 
-Tip
+### Tip
 
 Stay the code safe, be stronger. It will be good for everyone. Do not make reviews if any of the processes below has no compliance. If not, notify the developer about their mistakes and apply the changes correctly - a new MR shouldn't be necessary. If you do not understand the code you are reviewing, ask. Just ask it even if you think or are really sure that they are naive or too simple questions. These actions can motivate another coworkers to act by the same way and encourage them to ask always about everything they didn't understood.
 
-Development process:
+## Development process:
 
 do not initialize a new feature/bug/enhancement while a mainly task was not created to track your activity
 
