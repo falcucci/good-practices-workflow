@@ -1,4 +1,4 @@
-### Agreements
+*This is a work in progress.*
 
 The guidelines of this contributing document does not have as a function to restrict or force developers to make use of specific flow but as an engaged team we decided to create it and follow according with our own needs. To sum up, the reason this document was created is to be a concise and generic base-flow of the process to develop in a way they become more closer between teams and make it possible to reduce the friction and speed up the flow when exchanging team members or when using, contributing to other team's repositories.
 
