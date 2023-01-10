@@ -8,6 +8,18 @@ The guidelines of this contributing document does not have as a function to rest
 
 > Do not make reviews if any of the processes below has no compliance. If not, notify the developer about their mistakes and apply the changes correctly - a new MR shouldn't be necessary. If you do not understand the code you are reviewing, ask. Just ask it even if you think or are really sure that they are naive or too simple questions. These actions can motivate another coworkers to act by the same way and encourage them to ask always about everything they didn't understood.
 
+### Replicate the system
+
+Postman is a good option to keep everything up-to-date and replicate scenario, also including tests after ran scripted. The action of creating collections to better understand the product is a good practice to vizualise the flow of the system and to make it easier to understand the product. The collection can be exported and imported to other environments, so it is possible to replicate the same flow in your machine.
+
+### Monitoring
+
+New Relic must be a mandatory tool to monitor the system. It is possible to monitor the system in real time and to have a better understanding of the product. It is also possible to create alerts to notify the team about the system status.
+
+Grafana is a good option to monitor the system and to create dashboards to visualize the system status. It is possible to create alerts to notify the team about the system status.
+
+Sentry can be used to monitor web, mobile, and server-side applications, making it a versatile tool for developers working on a variety of projects. It supports a wide range of programming languages and frameworks, including JavaScript & Python.
+
 ###  Development process
 
 - do not initialize a new feature/bug/enhancement while a mainly task was not created to track your activity;
