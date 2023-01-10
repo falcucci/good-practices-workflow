@@ -8,31 +8,19 @@ The guidelines of this contributing document does not have as a function to rest
 
 ###  Development process
 
-do not initialize a new feature/bug/enhancement while a mainly task was not created to track your activity
-
-always create a new branch according with the ID over the task created at SwiftKanban board
-
-versioning your code with git
-
-keep up a repository per microservice
-
-locking the push directly to the master branch
-
-working with MR's and code review (suggested 2 revisions per MR)
-
-configure git hooks in your project to execute lint and run tests in the pre-commit and pre-push, the ideal is that this configuration be automatic per project
-
-please keep a changelog (changelog-it)
-
-comments are necessary, but avoid obvious or redundant comments
-
-always create clear and good documentation in project architecture, its modules and dependencies. It reduces the time spent in understanding the project when onboarding new people
-
-do unit tests and integration tests
-
-configure CI/CD pipelines (gitlab has it built-in) to improve the processes
-
-avoid multiple nesting levels, it makes the code harder to read
+- do not initialize a new feature/bug/enhancement while a mainly task was not created to track your activity
+- always create a new branch according with the ID over the task created at SwiftKanban board
+- versioning your code with git
+- keep up a repository per microservice
+- locking the push directly to the master branch
+- working with MR's and code review (suggested 2 revisions per MR)
+- configure git hooks in your project to execute lint and run tests in the pre-commit and pre-push, the ideal is that this configuration be automatic per project
+- please keep a changelog (changelog-it)
+- comments are necessary, but avoid obvious or redundant comments
+- always create clear and good documentation in project architecture, its modules and dependencies. It reduces the time spent in understanding the project when onboarding new people
+- do unit tests and integration tests
+- configure CI/CD pipelines (gitlab has it built-in) to improve the processes
+- avoid multiple nesting levels, it makes the code harder to read
 
 How to develop a new feature?
 
