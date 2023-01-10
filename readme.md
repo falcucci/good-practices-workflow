@@ -66,7 +66,9 @@ Aliases are generally helpful shortcuts, this one it is amazing to minimize the 
 
 Also we can automate it even better just adding the following alias in your shell.
 
+```bash
 alias release-me='curl -LsS https://raw.githubusercontent.com/falcucci/release-me/master/changelog-it.sh | bash -s $1 $2'
+```
 
 #### Now, you can run:
 
