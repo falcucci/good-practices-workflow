@@ -4,7 +4,7 @@
 
 ### Tip
 
-Stay the code safe, be stronger. It will be good for everyone. Do not make reviews if any of the processes below has no compliance. If not, notify the developer about their mistakes and apply the changes correctly - a new MR shouldn't be necessary. If you do not understand the code you are reviewing, ask. Just ask it even if you think or are really sure that they are naive or too simple questions. These actions can motivate another coworkers to act by the same way and encourage them to ask always about everything they didn't understood.
+Do not make reviews if any of the processes below has no compliance. If not, notify the developer about their mistakes and apply the changes correctly - a new MR shouldn't be necessary. If you do not understand the code you are reviewing, ask. Just ask it even if you think or are really sure that they are naive or too simple questions. These actions can motivate another coworkers to act by the same way and encourage them to ask always about everything they didn't understood.
 
 ## Development process:
 
