@@ -86,10 +86,4 @@ Basically, it will:
 
 ### Configuration
 
-It must have be configured using a changelog.config.js file created at the root of your workspace directory.
-
-For more informations, please read our official documentation.
-
-Gitlab Integration
-
-release-me
+It must have be configured using a `changelog.config.js` file created at the root of your workspace directory.
