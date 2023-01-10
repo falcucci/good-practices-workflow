@@ -15,11 +15,10 @@ The guidelines of this contributing document does not have as a function to rest
 - locking the push directly to the master branch (if really necessary);
 - working with MR's and code review (suggested 1 revision at least per MR)
 - please keep a changelog (consider to use [changelog-it](https://github.com/falcucci/changelog-it) generator);
-- comments are necessary, but avoid obvious or redundant comments
 - always create clear and good documentation in project architecture, its modules and dependencies. It reduces the time spent in understanding the project when onboarding new people
 - do unit tests and integration tests
-- configure CI/CD pipelines (gitlab has it built-in) to improve the processes
-- avoid multiple nesting levels, it makes the code harder to read
+- configure CI/CD pipelines (gitlab has a built-in or using github actions) to improve the processes
+- avoid multiple nesting coding style, it makes the code harder to read
 
 ### How to develop a new feature?
 
@@ -29,33 +28,39 @@ Also, the branch should always have staging as its ref. The flow is simple as yo
 
 image  1
 
-How to develop an expedite bugfix?
+### How to develop an expedite bugfix?
 
 First, identify which environment the bug has been affected. It will decide where to start. So, with that said  we should start the throubleshooting to recognize which version has the bug to immediately start the rollback correctly.
 
-That’s an important fact to always remember to build compatible versions with a consumer service or an application, the system always should have a rollback option.
+That's an important fact to always remember to build compatible versions with a consumer service or an application, the system always should have a rollback option.
 
 image 2
 
-Changelog process:
+### Changelog process
 
 It requires node.js to run.
 
 now you can install the following library to automate the process:
 
+```bash
 npm i -g @falcucci/changelog-it@latest
+```
 
-Hands on
+### Hands on
 
 without alias it is pretty simple to run:
 
+```bash
 changelog-it --range <TAG>...<REF> --release --gmud 
+```
 
 most common command used by:
 
+```bash
 changelog-it --range v5.8.31...v5.8.40 --release --gmud
+```
 
-Aliases, why?
+##### Aliases, why?
 
 Aliases are generally helpful shortcuts, this one it is amazing to minimize the daily processes avoiding you to forget a big command.
 
@@ -63,25 +68,20 @@ Also we can automate it even better just adding the following alias in your shel
 
 alias release-me='curl -LsS https://raw.githubusercontent.com/falcucci/release-me/master/changelog-it.sh | bash -s $1 $2'
 
-Now, you can run:
+#### Now, you can run:
 
 release-me patch "Various spec compliancy fixes and better support for smart pipelines and private methods."
 
 Basically, it will:
 
-create a semantic version based on the params (minor, patch, major);
+- create a semantic version based on the params (minor, patch, major);
+- publish the tag on gitlab;
+- start to generate a changelog based on the git refs (by default it must compare the latest tag with the head ref);
+- send a message to the slack channels to preview the gmud (not required);
+- create a gitlab release (required to show the MR`s;
+- How it will looks like? check it out.
 
-publish the tag on gitlab;
-
-start to generate a changelog based on the git refs (by default it must compare the latest tag with the head ref);
-
-send a message to the slack channels to preview the gmud (not required);
-
-create a gitlab release (required to show the MR`s;
-
-How it will looks like? check it out.
-
-Configuration
+### Configuration
 
 It must have be configured using a changelog.config.js file created at the root of your workspace directory.
 
