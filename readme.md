@@ -26,7 +26,7 @@ As you develop your feature in the new branch it should be always sync to be mer
 
 Also, the branch should always have staging as its ref. The flow is simple as you see in the image bellow.
 
-<img width="798" alt="Screenshot 2023-01-10 at 09 38 18" src="https://user-images.githubusercontent.com/33763843/211506330-f0edb9d5-0c7b-44d3-bf2a-323502a7e62f.png">
+<img width="998" alt="Screenshot 2023-01-10 at 09 59 11" src="https://user-images.githubusercontent.com/33763843/211506736-a818e5f0-345f-410b-be39-db07cbd1c8ed.png">
 
 ### How to develop an expedite bugfix?
 
