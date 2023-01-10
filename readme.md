@@ -72,7 +72,9 @@ alias release-me='curl -LsS https://raw.githubusercontent.com/falcucci/release-m
 
 #### Now, you can run:
 
+```bash
 release-me patch "Various spec compliancy fixes and better support for smart pipelines and private methods."
+```
 
 Basically, it will:
 
