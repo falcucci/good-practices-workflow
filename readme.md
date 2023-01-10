@@ -79,11 +79,10 @@ release-me patch "Various spec compliancy fixes and better support for smart pip
 Basically, it will:
 
 - create a semantic version based on the params (minor, patch, major);
-- publish the tag on gitlab;
+- publish the tag on github/gitlab;
 - start to generate a changelog based on the git refs (by default it must compare the latest tag with the head ref);
-- send a message to the slack channels to preview the gmud (not required);
-- create a gitlab release (required to show the MR`s;
-- How it will looks like? check it out.
+- send a message to the slack channels to preview the new release (if possible);
+- create a github/gitlab release (required to show the MR`s;
 
 ### Configuration
 
